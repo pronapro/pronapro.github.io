@@ -4,6 +4,7 @@ title:  "Object Detection With Python Using OpenCV:-Face Detection Example"
 date:   2021-07-25 16:01:15 +0300
 categories: jekyll update
 ---
+![face detected](/img/posts/face detection/hero.png)
 
 I was watching the person of interest, it’s a fiction crime series where an ex-CIA agent and a billionaire software genius try to stop crimes before they happen. they have a program called The Machine which identifies perpetrators and victims of deadly crimes. It is some kind of surveillance system that has cameras all over new york city and this is where computer vision comes in to detect objects and faces.
 
