@@ -4,7 +4,7 @@ title:  "
 Whatsapp Chat Analysis And Exploration Using Python
 "
 date:   2021-02-23 16:01:15 +0300
-categories: jekyll update
+
 ---
 # Image 
 Whatsapp is a widely used social media messaging application with over 2 billion users worldwide.Whatsapp users one can join groups or chat to a single person.Users can send text messages, video calls, send voice notes, share documents, contacts and other kinds of media. Whatsapp is a cross platform and does not have complicated features making it ideal for both Android users and iOS users who wish to communicate with people on different operating systems.

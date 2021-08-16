@@ -4,7 +4,7 @@ title:  "
 Geophagy: Why Do People Eat Soil?
 "
 date:   2021-02-14 16:01:15 +0300
-categories: jekyll update
+
 ---
 # image
 This pandemic a lot of people conceived, at least where I stay. So one of the pregnant people bought soil and I was given some to eat. I told someone I ate the best soil and they found it odd, eating soil hmm. I have been eating soil ever since I can remember. To clarify it is not any soil, It is soil bought from the market. I have no reason for eating soil. It is just a desire I get when I see people eat it. Recently while in a taxi I sat near two women, Uganda roads have many potholes, the taxi was shaking and putting us in motion.  one lady looked at the other and gave her a lump of soil.  While eating one of the women told the other how soil helps to keep her from being nauseated .The conversation went on and I got interested so I decided to carry out a survey on my friends and also do some research. We shall be looking at the practice of eating soil in this article, the article also contains a section on analysis of the answers I was provided.

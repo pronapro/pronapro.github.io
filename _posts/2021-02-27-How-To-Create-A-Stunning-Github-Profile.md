@@ -4,7 +4,7 @@ title:  "
 How To Create A Stunning Github Profile
 "
 date:   2021-02-27 16:01:15 +0300
-categories: jekyll update
+
 ---
 I learnt about GitHub profiles a few weeks ago when the someone I was collaborating with on some project showed me some amazing github profiles he had seen.A profile with stars, trophies makes one seem like and expert of some sort. Most of us  just have pinned repositories and our bios as our profiles. I did not care much about the profile customization feature until  recently while linking my GitHub  in an  article, I remembered the feature. I decided to make a profile that is more welcoming  and a place where people can get information about me when they visit my GitHub. In this blog post, I will be taking you through how to create a stunning gitHub profile.
 

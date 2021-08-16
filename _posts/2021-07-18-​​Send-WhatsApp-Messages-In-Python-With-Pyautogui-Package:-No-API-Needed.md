@@ -2,10 +2,10 @@
 layout: post
 title:  "Send WhatsApp Messages In Python With Pyautogui Package: No API Needed"
 date:   2021-07-18 16:01:15 +0300
-categories: jekyll update
+
 ---
 ## Introduction 
-In this post, we will be looking at how to send messages using python. I have used this technique to send over 100 messages to someone at once. All you need is WhatsApp open in your browser and the necessary packages. This blog is a supplement to my youtube video that you can find here.
+In this post, we will be looking at how to send messages using python. I have used this technique to send over 100 messages to someone at once. All you need is WhatsApp open in your browser and the necessary packages. This blog is a supplement to my youtube video that you can find [here](/https://www.youtube.com/watch?v=PszWfX8N34E).
 
 Libraries 
 Pyautogui- helps control mouse and keyboard actions  
@@ -106,4 +106,4 @@ def send_message():
 send_message()
 ```
 ## Conclusion 
-With just a few lines of code, you can send your friends WhatsApp messages using python. Make sure you don’t send people you don’t know because your number might be reported and blocked. Thanks for reading. You can also check out my youtube related video on this.
+With just a few lines of code, you can send your friends WhatsApp messages using python. Make sure you don’t send people you don’t know because your number might be reported and blocked. Thanks for reading. You can also check out my [youtube related video](https://www.youtube.com/watch?v=PszWfX8N34E) on this.

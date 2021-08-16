@@ -5,9 +5,9 @@ What Are Tonal Languages And Can Computers Understand Them Well?
 
 "
 date:   2020-12-31 16:01:15 +0300
-categories: jekyll update
+
 ---
-## Image 
+![Tonal languages](/img/posts/tonal/hero.jpeg)
 
 # Introduction
 I came across the concept of tonal languages when I was watching some song with my niece. My niece confused a word meaning for another. She wondered why the guy said it. I told her the guy meant another word. That moment I realised the words are the same and started to think about other words where the changes in tone change the meaning. Being a software engineer, I wondered how this could be modelled on a computer, for example, speech recognition and text to speech tasks. I decided to research the concept and learnt called tonal language.
@@ -33,7 +33,8 @@ Most tonal languages are concentrated around East and Southeast Asia, Central Am
 Example of tonal languages are Chinese, Vietnamese, Thai, and Punjabi in Asia, Yorùbá, Igbo, Luganda, Ewe and Zulu in Africa 
 
 # Geography Of Tonal Languages
-## Image 
+
+![geogaphy map](/img/posts/tonal/Tonal language geography.png)
 
 ## Tonal languages are mostly in humid areas
 
@@ -51,7 +52,8 @@ Due to lack of some keyboards lacking key accent markings, tones marks and sub d
 Diacritics are a sign, for example, an accent, which is written above or below letters to alter their pronunciation. when languages use them when using the Latin alphabet to represent unique sounds
 
 ## Are Tonal Languages Hard To Learn By Humans And Computer
-## Image 
+![Talking drum](/img/posts/tonal/TalkingDrum.jpeg)
+
 In Africa, some societies use talking drums for communication by making them produce a sound mimicking human speech.
 
 When I searched for tonal languages most people seemed scared of learning them. Because they think they are hard. When learning a new language most people use textbook, articles online.  The drawback of learning through text-based sources is most can’t teach you how to pronounce because some literature omits the tonal markings yet the languages highly rely on tones.
@@ -78,14 +80,14 @@ The small about of available datasets for tonal languages makes it hard to devel
 
 If you are interested in this topic like I am you should find the following resources helpful. You can also add on the list and share what you discovered.
 
-Tonal languages require humidity
+[Tonal languages require humidity](https://www.mpg.de/8879447/tonal-languages-institutes)
 
-The Diversity of Tone Languages and the Roles of Pitch Variation in Non-tone Languages: Considerations for Tone Perception Research
+[The Diversity of Tone Languages and the Roles of Pitch Variation in Non-tone Languages: Considerations for Tone Perception Research](http://face-music.ch/instrum/uganda_drumen.html)
 
-http://face-music.ch/instrum/uganda_drumen.htm
+[http://face-music.ch/instrum/uganda_drumen.htm](http://face-music.ch/instrum/uganda_drumen.htm)
 
-Natural language processing
+[Natural language processing](https://en.wikipedia.org/wiki/Natural_language_processing)
 
-Masakhane: Using AI to Bring African Languages Into the Global Conversation.
+[Masakhane: Using AI to Bring African Languages Into the Global Conversation.](https://en.reset.org/blog/masakhane-using-ai-bring-african-languages-global-conversation-02062020#:~:text=The%20Masakhane%20project%20aims%20to,and%20potentially%20generate%20human%20language)
 
 

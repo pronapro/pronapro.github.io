@@ -4,7 +4,7 @@ title:  "
 K-means Clustering In Python With Examples
 "
 date:   2021-01-29 16:01:15 +0300
-categories: jekyll update
+
 ---
 
 

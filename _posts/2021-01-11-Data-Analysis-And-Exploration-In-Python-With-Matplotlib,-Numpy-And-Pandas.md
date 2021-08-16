@@ -5,7 +5,7 @@ Data Analysis And Exploration In Python With Matplotlib, Numpy And Pandas
 
 "
 date:   2021-01-11 16:01:15 +0300
-categories: jekyll update
+
 ---
 ## Image 
 In this blog, we are going to cover the most commonly used data science libraries to do data analysis. The goal of this blog is to give you a brief on how to perform data analysis operations you are most likely to encounter. Data analysis is all about cleaning, manipulating and modelling in order to discover meaningful insights to guide in decision making. Data analysis step is an important one in order to build accurate models. Data scientist spend 80% of the project time doing data analysis before they even develop the algorithms/models.

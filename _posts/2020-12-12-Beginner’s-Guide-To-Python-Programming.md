@@ -5,9 +5,9 @@ Beginner’s Guide To Python Programming
 
 "
 date:   2020-12-12 16:01:15 +0300
-categories: jekyll update
----
 
+---
+![Hero](/img/posts/python beginner/hero.png)
 # Introduction
 I assume you are here because you want to learn Python. Maybe you were told it is the easiest programming language, or you are diving into data science or you have an issue you want to solve. Whatever your reason is for checking out my blog, I will try my best to make this post provide an overview of the basics of Python programming and address any questions you may have.
 
@@ -223,104 +223,51 @@ Suppose we want to increment x by 2. The traditional way to do it is x =x+2, but
 ## Comparison operators
 
 Comparison operators are used for comparing two variables, for example, comparing the height of friends. Comparison operator expressions always evaluate to a boolean value that can be either true or false.
-operator
-```table  
 
-sign
+| operator     | sign |Example |explanation|
+| ----------- | ----------- |----------- |----------- |
+|  Equal    | ==     |Equal Mary ==Sofia|Mary is equal to or same as Sofia. notice the equal operators as two equal signs|
+| Not Equal  | !=      |Mary!=Ali|Mary is not equal to Ali|
+|Greater than| >   |height>age|let’s say Ali’s height is greater/ more than his age|
+|less than|< | height<salary|height is less than his salary|
 
-Example 
-
-explanation
-
-Equal
-
-==
-
-Equal Mary ==Sofia
-
-Mary is equal to or same as Sofia. notice the equal operators as two equal signs
-
-Not Equal
-
-!=
-
-Mary!=Ali
-
-Mary is not equal to Ali
-
-Greater than
-
->
-
-height>age
-
-let’s say Ali’s height is greater/ more than his age
-
-less than
-
-<
-
-height<salary
-
-height is less than his salary
-
-```
 ## Logical operators
 
 Logical Operators Are Used For Combining Conditional Statements.
-``` 
-x
 
-y
 
-X and y
+|x 		|y 	|X and y	| X or y	|Not x	|
+|----|----|----|----|-----|
+|True|True|True|True|False|
+|True|False|False|True|False|
+|False|True|False|True|True|
+|False|False|False|False|True|
 
-X or y
 
-Not x
-
-True
-True
-True
-True
-False
-True
-False
-False
-True
-False
-False
-True
-False
-True
-True
-False
-False
-False
-False
-True
-```
-And
+***And***
 Returns true if both statements are true.
-
+```python
 age < 25 and name == “Emma”
+```
 
 If the name we are given is Emma and the age is 25 then the statement is true otherwise false
 
-OR
+***OR***
 
 Equal Mary
 
 Returns True if one of the statements is true
-
+```python
 height < 10 or age > 20
-
+```
 If both the height or age is true, or one of the two is true, then that statement will evaluate to true, otherwise, it will evaluate to false.
 
-Not
+***Not***
 
-Not reverses the result, returning False if the result is true. not(height < 10 or age > 20)
-
+Not reverses the result, returning False if the result is true. 
+```python
+not(height < 10 or age > 20)
+```
 ## In: Membership Operator
 We use In operator to check if a value is present in a sequence if it’s present then it is a member. We can use the keywords in or not in. The statement returns a True or false value Maybe you wrote a list of things to shop, you want to know if you wrote something down, we can use in the string to get it faster
 ```python 
@@ -362,9 +309,9 @@ Float numbers can also have e followed by a positive or negative number
 ### String
 Strings are sequences of characters. We use quotations to declare strings in Python, and you can either use single or double quotations.
 ```python 
-Name =’Audrey’
+Name ='Audrey'
 
-comment =”I proud to be part of the team”
+comment ="I proud to be part of the team"
 ``` 
 
 If you want to include a quotation within a string we use quotations different from the ones we used on the string. If the string is using single quotation then the inside string should use double quotation and vice versa.
@@ -436,7 +383,7 @@ y =6
 
 We can also
 
-course =”python”
+course ="python"
 ``` 
 
 ## int()
@@ -576,7 +523,7 @@ Length
 We use the len() function to get the length of a list.
 ```python 
 num_names = len(Names)
-print(“There are ” + str(num_names) + ” friends.”
+print("There are " + str(num_names) + " friends.")
 ``` 
 
 ### Sorting elements
@@ -625,8 +572,8 @@ The duplicate names are removed in a set.
 We cannot access items from a set using indexing
 You can check if an item is in the set using membership operator  in
 ```python 
-if “Emma” in Names:
-    print(“name exists”) 
+if "Emma" in Names:
+    print("name exists") 
 ``` 
 
 Add items
@@ -650,7 +597,7 @@ To join two set we use union function
 
 Other set methods are difference(), intersection(), issubset(), issuperset(), copy(), clear(), pop(), remove().
 
-Dictionary
+## Dictionary
 Dictionary is used to store a collection of paired data, the data is in key-value pairs. A key must be unique in a dictionary. Dictionaries use curly brackets and key-value pairs are separated by a comma.
 ```python 
 dictionary ={key:value}
@@ -661,13 +608,13 @@ Let us make a dictionary to store a friend’s details, possible party location/
 ```python 
 Emma_details = {
 
-  “Name”: “Emma”,
+  "Name": "Emma",
 
-  “Age”: 20,
+  "Age": 20,
 
-  “occupation”: “banker”,
+  "occupation": "banker",
 
-“residence”: “downtown”,
+"residence": "downtown",
 
 }
 
@@ -677,23 +624,23 @@ The guest list has guests and their titles for invitation. We are going to use t
 ```python 
 guests ={
 
-‘Nevia”’: “Mr”, 
+"Nevia": "Mr", 
 
-‘carr”’ : “Dr”,
+"carr" : "Dr",
 
-‘John’: “Professor”, 
+"John": "Professor", 
 
-‘Jack’: “Mrs”, 
+"Jack": "Mrs", 
 
-‘Andrew’ : “Miss”, 
+"Andrew" : "Miss", 
 
-‘Sanny’ : ” Miss”,
+"Sanny" : "Miss",
 
- ‘Levi”’ : “sir”, 
+ "Levi" : "sir", 
 
-‘Markle’ : “captain”,
+"Markle" : "captain",
 
-“Hill”: “Lord”
+"Hill": "Lord"
 
 }
 ``` 
@@ -701,11 +648,11 @@ Possible party venues and the amounts for each
 ```python 
 locations ={‘Beach’:500,
 
-‘Hotel’:1500,
+"Hotel":1500,
 
-‘Bar’:600,
+"Bar":600,
 
- ‘movie_theatre’: 200}
+"movie_theatre": 200}
 ``` 
 We can declare an empty dictionary
 
@@ -714,15 +661,15 @@ new_dictionary ={ }
 Access items
 If we want to get the price of having the party at the beach we just write 
 ```python 
-Location[‘beach’]
+Location["beach"]
 #Or 
-location. get(‘beach’)
+location. get("beach")
 ``` 
 
 we can also use get() function to access values
 ```python 
->>> guests.get(“Emma”)
-‘Mr’
+>>> guests.get("Emma")
+"Mr"
 ``` 
 If we want to print an invitation for Hill
 ```python 
@@ -734,7 +681,7 @@ To modify
 Suppose the friends asked for additional things that are not on the 500 dollar package to be added and the new price becomes 600. To update that value in the dictionary they write
 ```python 
 
-Locations[‘beach’] = 600
+Locations["beach"] = 600
 ``` 
 We can also go through(loop) keys in a dictionary using for loops
 ```python 
@@ -768,7 +715,7 @@ movie_theatre 200
 ``` 
 we use del just like with lists to remove an item from a dictionary
 ```python 
-del locations[“Hotel”]
+del locations["Hotel"]
 ``` 
 #to delete the entire dictionary
 ```python 
@@ -791,10 +738,10 @@ We can have a dictionary inside another. This is helpful when your key has a set
 We can add more information about the locations necessary to the party planning into the location dictionary. we are going to make each location dictionary having its own attributes and add it as a key to the location dictionary.
 ```python 
 Location ={
-“Beach”:{“amount”:500,” accommodation”:100,” entertainment”: “ music”},
-“Hotel”: {“amount”:1500, “accommodation”:300, “entertainment”: “liveband”},
-“Bar”:{“amount”:600, “accommodation”:50, “entertainment”: “karaoke”},
-“Movie_theatre”:{“amount”:200, “accommodation”:200: “entertainment”: “latest movie”}
+"Beach":{"amount":500, "accommodation":100," entertainment": " music"},
+"Hotel": {"amount":1500, "accommodation":300, "entertainment": "liveband"},
+"Bar":{"amount":600, "accommodation":50, "entertainment": "karaoke"},
+"Movie_theatre":{"amount":200, "accommodation":200: "entertainment": "latest movie"}
 }
 ``` 
 To check for the size of the dictionary we use len() function like with other iterables.
@@ -904,15 +851,15 @@ Now let us print our invitations
 
 ```python 
 guests ={
-‘Emma’ : “Mr”, 
-‘Mark’ : “Dr”,
-‘John’ : “Professor”, 
-‘Jack’ : “Mrs”, 
-‘Audrey’ : “Miss”, 
-‘Sofia’ : ” Lady”,
-‘Sally’ : “sir”, 
-‘Mary’ : “captain”,
-“Ben”: “Lord”
+"Emma" : "Mr", 
+"Mark" : "Dr",
+"John" : "Professor", 
+"Jack" : "Mrs", 
+"Audrey" : "Miss", 
+"Sofia" : "Lady",
+"Sally" : "sir", 
+"Mary" : "captain",
+"Ben": "Lord"
 }
 
 for key in guests:
@@ -939,7 +886,7 @@ Hello, Lord Ben, you are invited to Sean’s birthday due to take place on 15th 
 We can also use the dictionary method items
 ```python 
 for name, title in guests.items():
-    print(“Hello, ” +title+” “+ name+ “, you are invited to Sean’s birthday due to take place on 15th November “)
+    print("Hello, " +title+" "+ name+ ", you are invited to Sean’s birthday due to take place on 15th November “)
 ```
 
 This simplifies the work writing the template is the only task the person sending invitation has to do and the program will go through the list and print invitations for everyone
@@ -1181,7 +1128,7 @@ Python also has a super() function that will make the child class inherit all th
 class Guest(Friend):
   def __init__(self, age, name):
     super().__init__(age, name)
-    self.residence = “south”
+    self.residence = "south"
 ``` 
 ## Miscellaneous
 This section contains some important concepts we didn’t cover in the previous sections.

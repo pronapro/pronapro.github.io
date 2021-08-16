@@ -4,7 +4,7 @@ title:  "
 Logistic Regression In Python With A Real-world Example
 "
 date:   2021-04-25 16:01:15 +0300
-categories: jekyll update
+
 ---
 # Introduction
 Imagine you want to apply to a school, for a visa or maybe you are eyeing a promotion somewhere and don’t want to waste your money and time on things you won’t get. Assuming they work on people based on a first come first serve basis so you have an idea and collected data of people’s results. You are wondering if there is a way to check if your outcome is going to be a  positive or a negative one. And are wondering how you are to do that. The data you collected is a lot so you cant manually work with it. you can use logistic regression to solve such a problem.

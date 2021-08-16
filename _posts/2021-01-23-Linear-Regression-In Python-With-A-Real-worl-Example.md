@@ -5,7 +5,7 @@ Linear Regression In Python With A Real-world Example
 
 "
 date:   2021-01-23 16:01:15 +0300
-categories: jekyll update
+
 ---
 ## Image 
 
