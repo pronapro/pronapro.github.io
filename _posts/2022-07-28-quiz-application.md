@@ -9,7 +9,7 @@ date:   2022-07-28 14:01:15 +0200
 
 Create Quiz Application in python
 ===========================================================
-This post contains a follow-up code from the video on youtube, in the video, we look at home to create a quiz application in python. The program asks questions and prompts the user to pick an option. We are utilising python data structures like lists, dictionaries, operators less than, equal and greater than. We will also utilise if statements and loops(for loop and while loop). If you are not familiar with python check out the where beginner blogs here.
+This post contains a follow-up code from the video on youtube, in the video, we look at home to create a quiz application in python. The program asks questions and prompts the user to pick an option. We are utilising python data structures like lists, dictionaries, operators less than, equal and greater than. We will also utilise if statements and loops(for loop and while loop). If you are not familiar with python check out the where beginner blogs [here](http://pronapro.com/2020/12/12/Beginner-s-Guide-To-Python-Programming.html).
 
 ```python
 #list , dictionary
