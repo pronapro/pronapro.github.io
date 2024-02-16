@@ -9,29 +9,35 @@ date:   2022-07-28 14:01:15 +0200
 
 Create Quiz Application in python
 ===========================================================
-This post contains a follow-up code from the video on youtube, in the video, we look at home to create a quiz application in python. The program asks questions and prompts the user to pick an option. We are utilising python data structures like lists, dictionaries, operators less than, equal and greater than. We will also utilise if statements and loops(for loop and while loop). If you are not familiar with python check out the where beginner blogs [here](http://pronapro.com/2020/12/12/Beginner-s-Guide-To-Python-Programming.html).
+<div style="text-align: justify;">
+
+This post features supplementary code associated with a tutorial on my <a href="https://www.youtube.com/watch?v=dmEjKdT4YjI" target="_blank">YouTube</a> channel, demonstrating the creation of a quiz application in Python. The program engages users by posing questions and prompting them to select an option. In building the quiz application, we leverage Python data structures like lists and dictionaries to manage variables, employ logical operators, and incorporate conditional statements such as 'if' statements. Additionally, we utilize loops, including 'for' and 'while' loops, for handling choices. If you are new to Python, you can explore the basics through this <a href="http://pronapro.com/2020/12/12/Beginner-s-Guide-To-Python-Programming.html" target="_blank">blog</a> where I cover fundamental concepts of Python programming.
+</div>
+
 
 ```python
-#list , dictionary
-#if statements 
-#for loop and while 
-#operators
-#input 
+
 def quiz():
-    correct = 0
+    """
+    Conducts a quiz with multiple-choice questions and evaluates the user's answers.
+
+    Returns:
+    int: The number of correct answers.
+    """
+    correct_answers = 0
     play_again = True
-    round = 1
-    answer_list =[]
+    round_number = 1
+    answer_list = []
     while play_again:
         print("********************************")
-        print("THIS IS THE {} ROUND".format(round))
+        print("THIS IS THE {} ROUND".format(round_number))
         print("You have to get 2 or more questions right")
 
         questions  = ["What are we doing today?", "What programming languange will we be using?", "Is python interesting?"]
         options = {1:["A: Quiz","B: Mathematics exams ","C:I don't know"],
                     2:["A:Rust","B: Javascript","C: Python"],
                     3:["A:Yes","B:Maybe","C: No"]}
-        answers = ["A","C","A"]
+        correct_answers_list = ["A","C","A"]
 
         for i, key in enumerate(options):
             print(questions[i])
@@ -41,18 +47,23 @@ def quiz():
             if user_answer.upper() == answers[i]:
                 correct +=1
             answer_list.append(user_answer)
+
         if correct >=2:
             play_again = False
-        round +=1
-        print("you got {} of questions right".format(correct))
-        print("Here are your answers{}".format(answer_list))
-        print("The correct answers are {}".format(answers))
+
+        round_number +=1
+        print("You got {} questions right".format(correct_answers))
+        print("Your answers: {}".format(answer_list))
+        print("Correct answers: {}".format(correct_answers_list))
         print("")
-    return correct
+
+    return correct_answers
                 
 
 quiz()
+
 ```
+
 
 Sample output 
 ```
@@ -74,7 +85,7 @@ A:Yes
 B:Maybe
 C: No
 Input your answer: c
-you got 1 of questions right
+You got 1 of questions right
 Here are your answers['a', 'a', 'c']
 The correct answers are ['A', 'C', 'A']
 ```

@@ -18,17 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Napro Dev
+title: Pronapro Scripts 
 email: pro@napro.dev
 description: >- # this means to ignore newlines until "baseurl:"
-  The aim for this platform is to share about how to perform some data science tasks, share about interesting data sets I discover every day that have potential to improve our ways of life, document my learning journey as I explore the machine learning field and to hopefully inspire someone out there.
+  This website is all about sharing what I learn in machine learning and software engineering. I talk about things I find that can make our lives better, share my journey in learning machine learning, and hope to inspire others along the way.
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pronapro.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: pronapro
 github_username:  pronapro 
 ###done by me 
-author: "Napro"
-copyright: "Naprodev"
+author: "Proscovia"
+copyright: "pronapro"
 # Build settings
 theme: minima
 plugins:
