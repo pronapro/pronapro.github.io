@@ -7,5 +7,5 @@ permalink: /about/
 
 <div style="border: 2px solid black; padding: 10px; font-size: 20px;">
 Hi, I am Proscovia, a machine learning engineer specializing in applications of machine learning for remote sensing. 
-I currently work at AirQo, a leading organization in Africa dedicated to improving air quality through data collection, analysis, forecasting, and collaboration with partners.
+I am interested in software engineering, machine learning and remote sensing applications. I have a BSc in software engineering and a Msc in computer science. 
 </div>
