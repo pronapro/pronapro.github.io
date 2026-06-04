@@ -4,4 +4,4 @@
 
 layout: home
 ---
-This blog is under construction and posts will be updated with time. I will be posting my learnings when it comes to machine learning, data science and tech in general. 
+This blog is under construction and posts will be updated with time. I will be posting my learnings when it comes to machine learning, data science and tech in general. I hope you stick around for long. 
