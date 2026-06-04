@@ -6,6 +6,8 @@ Introduction To Machine Learning
 "
 date:   2020-09-16 16:01:15 +0300
 
+published: false
+
 ---
 ![Hero Image](/img/posts/ml/hero.png)
 

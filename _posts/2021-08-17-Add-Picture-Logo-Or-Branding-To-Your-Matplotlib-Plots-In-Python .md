@@ -5,7 +5,7 @@ Add Picture Logo Or Branding To Your Matplotlib Plots In Python
 
 "
 date:   2021-08-17 16:01:15 +0300
-
+published: false
 ---
 Data analysis or scientists deal with a lot of data and to make it understandable people often create a visualization that is shared. Sometimes you might want to add your brand feel for instance if you are sharing with external sources or social media and want to add ownership. in this post I will be sharing how to add your picture or brand logo to your plots, the different ways you can position and resize your logo.
 

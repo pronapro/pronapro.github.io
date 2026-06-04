@@ -5,7 +5,7 @@ How To Make Word Cloud In Python
 
 "
 date:   2021-09-18 16:01:15 +0300
-
+published: false
 ---
 # Word cloud
 Word cloud helps to know which words are common for example when analyzing what words are frequently used in a conversation or what words are used by a certain author. 

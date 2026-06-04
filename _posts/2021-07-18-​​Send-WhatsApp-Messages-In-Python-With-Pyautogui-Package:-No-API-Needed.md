@@ -2,7 +2,7 @@
 layout: post
 title:  "Send WhatsApp Messages In Python With Pyautogui Package: No API Needed"
 date:   2021-07-18 16:01:15 +0300
-
+published: false
 ---
 ## Introduction 
 In this post, we will be looking at how to send messages using python. I have used this technique to send over 100 messages to someone at once. All you need is WhatsApp open in your browser and the necessary packages. This blog is a supplement to my youtube video that you can find [here](/https://www.youtube.com/watch?v=PszWfX8N34E).

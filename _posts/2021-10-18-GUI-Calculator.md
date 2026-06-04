@@ -4,7 +4,7 @@ title:  "
 GUI Calculator App In Python Using tkinter
 "
 date:   2021-10-18 16:01:15 +0300
-
+published: false
 ---
 
     

@@ -3,6 +3,7 @@ layout: post
 title:  "Object Detection With Python Using OpenCV:-Face Detection Example"
 date:   2021-07-25 16:01:15 +0300
 categories: jekyll update
+published: false
 ---
 ![face detected](/img/posts/face detection/hero.png)
 

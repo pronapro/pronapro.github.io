@@ -6,6 +6,7 @@ Realtime Object Detection With Python Using OpenCV
 "
 date:   2021-08-11 16:01:15 +0300
 categories: jekyll update
+published: false
 ---
 In this post, I will be looking at object detection using OpenCV and haar cascades. This post is mainly focused on object detection of objects from video and image capture. This is a continuation of the previous post where I covered the basics like how to read and write images using opencv.  We shall be using the face detection haar cascade but you can go ahead and use what you like or use many in combination. 
 First we install open cv 

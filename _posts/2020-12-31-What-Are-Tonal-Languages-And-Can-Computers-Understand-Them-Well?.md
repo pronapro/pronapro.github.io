@@ -6,6 +6,8 @@ What Are Tonal Languages And Can Computers Understand Them Well?
 "
 date:   2020-12-31 16:01:15 +0300
 
+published: false
+
 ---
 ![Tonal languages](/img/posts/tonal/hero.jpeg)
 

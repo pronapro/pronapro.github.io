@@ -2,7 +2,7 @@
 layout: post
 title: "Web Scraping Example With Python: An Alternative Way To Get Data For Your Machine Learning Models"
 date:   2021-06-30 16:01:15 +0300
-
+published: false
 ---
 # Introduction 
 It said that Is data is the new oil but like oil, it can be hard to get. If you are a data scientist like me you know enough or the right data plays an important role in having unbiased models. Even though there are many sources of free data you might not be interested in the ones available. Sometimes you just want something different or want to automate the process, instead of downloading every time the site is updated you just the process to happen in the background. in this post, we will be going through how to scrape data using beautiful soup and requests. for our example, we will be scraping Wikipedia tables and saving them to a CSV using pandas which is also a Python Library.

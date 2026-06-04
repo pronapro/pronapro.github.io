@@ -4,7 +4,7 @@ title:  "
 Create Quiz Application in python
 "
 date:   2022-07-28 14:01:15 +0200
-
+published: false
 ---
 
 Create Quiz Application in python
