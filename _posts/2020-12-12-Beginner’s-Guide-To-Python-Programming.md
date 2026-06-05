@@ -6,7 +6,7 @@ Beginner’s Guide To Python Programming
 "
 date:   2020-12-12 16:01:15 +0300
 
-published: false
+#published: false
 
 
 ---
