@@ -1,5 +1,15 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+// Apply clean classic serif layout to body text 
+$base-font-family: 'EB Garamond', Georgia, serif;
 
+// Apply high-contrast Koch Antiqua style to post titles and headings
+$heading-font-family: 'Cormorant Garamond', 'Palatino', serif;
+
+// Give text a bit more breathing room to support the vintage aesthetic
+$base-font-size: 17px;
+$base-line-height: 1.65;
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Source+Serif+4:wght@300;400;500;600&family=Kalam:wght@300;400;700&display=swap');
 @import "minima";

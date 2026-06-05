@@ -23,14 +23,16 @@ description: >- # this means to ignore newlines until "baseurl:"
   This website is all about sharing what I learn in machine learning and software engineering. I talk about things I find that can make our lives better, share my journey in learning machine learning, and hope to inspire others along the way.
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pronapro.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: pronapro
+twitter_username: pro_napro
 github_username:  pronapro 
 linkedin_username: pronapro
+youtube_username: "@pro_napro"
 ###done by me 
 author: "Proscovia"
-copyright: "pronapro"
+copyright: "Pronapro LLC"
 # Build settings
-theme: minima
+#Remove minima theme because i wanted option to edit the css and html files
+#theme: minima
 plugins:
   - jekyll-feed
 
