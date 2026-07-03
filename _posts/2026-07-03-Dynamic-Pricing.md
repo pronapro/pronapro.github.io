@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dynamic Pricing"
-date:   2026-06-08 16:01:15 +0300
+date:   2026-07-03 16:01:15 +0300
 categories: Tech
 ---
 
