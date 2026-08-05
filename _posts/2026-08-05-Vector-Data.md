@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Introduction to Vector Data"
-date:   2026-07-30 16:01:15 +0300
+date:   2026-08-05 16:01:15 +0300
 categories: Geospatial
 ---
 
