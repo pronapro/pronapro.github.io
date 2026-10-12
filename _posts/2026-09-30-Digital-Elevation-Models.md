@@ -260,3 +260,9 @@ From a simple raster of elevation values, we can derive slope, aspect, drainage 
 The key is choosing the right elevation dataset for the problem. **Resolution, accuracy, coverage, acquisition method, surface type, and data age** all matter.
 
 And when combined with other Earth observation data, DEMs become a powerful foundation for understanding our changing environment.
+
+## References
+- [New Machine Learning Derived Digital Terrain Models](https://opentopography.org/news/new-machine-learning-derived-digital-terrain-models)
+- [Everything you need to know about Digital Elevation Models (DEMs), Digital Surface Models (DSMs), and Digital Terrain Models (DTMs)](https://up42.com/blog/everything-you-need-to-know-about-digital-elevation-models-dem-digital)
+- [Digital elevation models](https://www.nearmap.com/topics-glossary/digital-elevation-models)
+- [Digital elevation models](https://docs.up42.com/data/elevation-models)

@@ -1,5 +1,5 @@
 ---
-published: false
+
 ---
 
 This post contains code for creating a simple commandline calculator app in python. This is a beginner friendly project and it covers basic concepts like variables, conditional statements, loops and functions. 

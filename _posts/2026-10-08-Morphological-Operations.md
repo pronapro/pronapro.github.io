@@ -126,3 +126,9 @@ Morphological operations can support AI models at different stages of an image-p
 ## Conclusion
 
 Morphological operations provide a simple way to work with the shape and structure of objects in an image. From the basic operations of erosion and dilation, we can perform more advanced operations such as opening, closing, skeletonisation, and morphological gradients. When applied to segmentation results, these techniques can help remove unwanted artefacts, close small gaps, and produce cleaner masks. The effectiveness of the operation depends largely on the type and size of the structuring element and the characteristics of the image being processed. Sometimes, getting a cleaner segmentation result is not only about building a more complex model. A little post-processing can also go a long way.
+
+## References
+- [Morphological Operations — A Cleaning Technique in Image Processing](https://mattmaulion.medium.com/morphological-operations-a-cleaning-technique-in-image-processing-155baed8fcd1)
+- [Morphological Operations](https://apps.fz-juelich.de/juspice/image_processing/basics/morphological_operations.html)
+- [Introduction to Morphological Image Processing: Techniques and Applications](https://akridata.ai/blog/morphological-image-processing-techniques-applications/)
+- [Different Morphological Operations in Image Processing](https://www.geeksforgeeks.org/computer-vision/different-morphological-operations-in-image-processing/)
